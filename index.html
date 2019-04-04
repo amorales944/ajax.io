@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="./assets/css/meyerWebReset.css" /> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <title>Ajax & Giphy Search</title>
+</head>
+
+<body>
+
+  <div class="head"></div>
+  <div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Ajax & Giphy</h1>
+      <p class="lead">Search</p>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <form>
+      <div class="card">
+        <div class="card-header">
+          Search Paramaters
+        </div>
+        <div class="card-body">
+          <div class="container-fluid">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Search Term:</label>
+              <input type="text" class="form-control" id="searchTermID" aria-describedby="emailHelp" />
+            </div>
+            </br>
+            <button type="button" class="btn bg-light" id="searchButton">Search</button>
+            <button type="button" class="btn bg-light" id="clearButton">Clear</button>
+
+          </div>
+        </div>
+      </div>
+      </br>
+      <div class="card">
+        <div class="card-header text-center">
+          
+          <button data-animal="dog">Dog</button>
+          <button data-animal="cat">Cat</button>
+          <button data-animal="snake">Snake</button>
+          <button data-animal="horse">Horse</button>
+          <button data-animal="gorilla">Gorilla</button>
+          <button data-animal="lion">Lion</button>
+        </div>
+        <div class="card-body">
+          <section id="sectionDisplay">
+
+
+          </section>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+  <script type="text/javascript" src="./assets/javascript/javascript.js"></script>
+</body>
+
+</html>

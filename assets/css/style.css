@@ -1,0 +1,10 @@
+.head {
+    height: 4px;
+    background-color: red;
+}
+.jumbotron {
+    background-color: #013366;
+    color: white;
+    height: 200px;
+    
+}
