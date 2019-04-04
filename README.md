@@ -1,7 +1,8 @@
-# ajax.io
 - ajax.io - Homework
+# ajax.io
 
-##***Pseudo Code***
+
+## ***Pseudo Code***
 - Create an array then save that to a variable called queries.
 - Take ther queries in thsoi array and create buttons into the HTML
     - Use a loop that appends a button for eachstring in the array.
