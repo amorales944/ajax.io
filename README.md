@@ -4,7 +4,7 @@
 
 ## ***Pseudo Code***
 - Create an array then save that to a variable called queries.
-- Take ther queries in thsoi array and create buttons into the HTML
+- Take the queries in this array and create buttons into the HTML
     - Use a loop that appends a button for eachstring in the array.
 - When the user clicks on a button on the page it should grab 8 giphys and dispaly them on the page.
 - when you click on one of the giphy it should then animate, click again and it shoudld stop.
